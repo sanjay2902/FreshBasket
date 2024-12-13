@@ -1,0 +1,392 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+h1, h2 {
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar Styling */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #f4f4f9;
+}
+
+/* Home Page Styling with Online Image Background */
+.home-page {
+    text-align: center;
+    padding: 50px 0;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF06Gl73e-tO46peGszUQ7iCoiGlVMrx3zEw&s');
+    background-size: cover;           /* Ensures the image covers the entire area */
+    /* background-position: center;      Keeps the image centered */
+    background-repeat: no-repeat;     /* Prevents the image from repeating */
+    background-attachment: fixed;     /* Ensures the background image stays in place when scrolling */
+    height: 100vh;                    /* Makes sure it fills the entire viewport height */
+    color: #fff;
+}
+
+.home-page h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.home-page p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home-page p a:hover {
+    color: #007bff;
+}
+
+/* Register and Login Page Styling */
+form {
+    background-color: #fff;
+    padding: 40px;
+    margin: 50px auto;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form input[type="text"], form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Dashboard Page */
+.dashboard {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.dashboard h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.dashboard p a {
+    text-decoration: none;
+    background-color: #f4f4f9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+.dashboard p a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.dashboard .logout-button {
+    margin-top: 20px;
+    background-color: #d9534f;
+}
+
+.dashboard .logout-button:hover {
+    background-color: #c9302c;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Navbar Links (Left) */
+nav .left-links {
+    display: flex;
+}
+
+nav .left-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav .left-links a:hover {
+    color: #f4f4f9;
+}
+
+/* Center Block (Shop Your Cart) */
+nav .center-block {
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav .center-block a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav .center-block a:hover {
+    background-color: #0056b3;
+}
+
+/* Dashboard Section Styling */
+.dashboard {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Shopping Cart Section */
+.shopping-cart {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.shopping-cart h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.cart-items ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-items li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.cart-items img.item-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.cart-items span {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background-color: #333;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Left Section (FreshBasket) */
+nav .left-links a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Center Section (Shop and Your Cart) */
+nav .center-block {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+nav .center-block a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav .center-block a:hover {
+    background-color: #0056b3;
+}
+
+/* Right Section (Profile and Logout) */
+nav .right-links a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav .right-links a:hover {
+    color: #f4f4f9;
+}
+
+/* Main Dashboard Content */
+.dashboard {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Shopping Cart Section */
+.shopping-cart {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.shopping-cart h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.cart-items ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-items li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.cart-items img.item-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.cart-items span {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}

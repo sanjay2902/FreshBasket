@@ -1,0 +1,164 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+h1, h2 {
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar Styling */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #f4f4f9;
+}
+
+/* Home Page Styling */
+.home-page {
+    text-align: center;
+    padding: 50px 0;
+    background-image: url("{{ url_for('static', filename='images/vegetable.jpg') }}");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.home-page h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.home-page p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home-page p a:hover {
+    color: #007bff;
+}
+
+/* Register and Login Page Styling */
+form {
+    background-color: #fff;
+    padding: 40px;
+    margin: 50px auto;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form input[type="text"], form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Login Page Background */
+.login-page {
+    text-align: center;
+    padding: 50px 0;
+    background-image: url("{{ url_for('static', filename='images/fruits.jpg') }}");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.login-page h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.login-page p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-page p a:hover {
+    color: #007bff;
+}
+
+/* Dashboard Page */
+.dashboard {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.dashboard h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.dashboard p a {
+    text-decoration: none;
+    background-color: #f4f4f9;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+.dashboard p a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.dashboard .logout-button {
+    margin-top: 20px;
+    background-color: #d9534f;
+}
+
+.dashboard .logout-button:hover {
+    background-color: #c9302c;
+}
